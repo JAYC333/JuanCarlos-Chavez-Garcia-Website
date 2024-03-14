@@ -1,0 +1,130 @@
+/* Add reset CSS here if needed */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(222, 213, 203);
+}
+
+.rounded-images {
+  border-radius: 60%; /* Make the image circular */
+  width: 250px; /* Adjust the width as needed */
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.navbar {
+  background-color: #ddd6d6;
+  padding: 10px 0;
+  text-align: center; /* Center the navigation links horizontally */
+}
+
+.flex-container {
+  display: flex;
+}
+
+#navItems {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 0;
+}
+
+/* Top Links: "Home, About Me, Skills, Resume, Contact" */
+.noUnderline {
+  text-decoration: none;
+  color: black;
+}
+
+.noUnderline:hover {
+  color: green; /* Change the color on hover */
+}
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f0f0f0; /* Choose your background color */
+  background-image: url("codingbackground.jpeg");
+  color: #faf3f3; /* Choose your text color */
+  padding: 100px 0; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.profileText {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Set the text color to white */
+  padding: 20px; /* Add some padding inside the container */
+  border-radius: 10px; /* Add rounded corners */
+  width: 300px; /* Set a fixed width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  justify-content: space-between; /* Space the children evenly */
+}
+
+.skillsContainers {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove default padding */
+  margin-bottom: 30px;
+}
+
+
+/* Add space between sections */
+#about,
+#skills,
+#contact {
+  color: rgb(60, 87, 125);
+  background: rgba(6, 6, 6, 0);
+  margin: auto;
+  width: 80%;
+  min-height: 350px;
+  margin-bottom: 40px; /* Adjust as needed */
+}
+.pensiveMan {
+  border-radius: 60%; /* Make the image circular */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 40%;
+}
+.teamworkImage {
+  border-radius: 60%; /* Make the image circular */
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.btn {
+  margin: 0 auto; /* Center the button horizontally */
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  color: white;
+  width: 150px; /* Set the desired width for your button */
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+}
+
+.footerSection {
+  text-align: center;
+}
